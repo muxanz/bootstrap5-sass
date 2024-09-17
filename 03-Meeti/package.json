@@ -1,0 +1,17 @@
+{
+  "name": "03-meeti",
+  "version": "1.0.0",
+  "description": "Proyecto con Bootstrap5 y SASS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compilar:sass": "sass --watch src/scss:build/css",
+    "build:sass": "purgecss --css build/css/Style.css --content index.html --output build/css/meeti.css"
+  },
+  "author": "Samuel Florez",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap": "^5.3.3",
+    "sass": "^1.78.0"
+  }
+}
