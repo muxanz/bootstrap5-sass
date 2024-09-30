@@ -4,8 +4,7 @@
   "description": "Clon UDEMY SASS Gulp Bootstrap",
   "main": "index.js",
   "scripts": {
-    "dev": "gulp",
-    "produccion": "gulp build"
+    "dev": "gulp"
   },
   "author": "Samuel Florez",
   "license": "ISC",
